@@ -254,8 +254,6 @@ header {
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 
@@ -264,12 +262,16 @@ header {
 
     margin-right: 30px;
     margin-bottom: 30px;
-    
-    border: 1px solid #EEEEEE;
+}
+
+.no-gap {
+    display: block;
 }
 
 .example {
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: 1px solid #EEEEEE;
+    border-top: none;
 }
 
 .flex-element:nth-child(3n) {
