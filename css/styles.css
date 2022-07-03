@@ -192,8 +192,13 @@ header {
 /* Section */
 
 .section {
-    margin-top: 94px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.no-padding {
+    padding-top: 0;
+    padding-bottom: 94px;
 }
 
 
